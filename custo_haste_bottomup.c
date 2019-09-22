@@ -2,7 +2,7 @@
 
 int rec = 0;
 
-int max (int A, int B){
+int max(int A, int B){
 	if(A > B)
 		return A;
 	else
@@ -10,7 +10,7 @@ int max (int A, int B){
 }
 
 
-int cutRod(int* p, int n){
+int cutRodBottomUp(int* p, int n){
 	int i, q = -1;
 	rec++;
 	if (n == 0)
@@ -27,7 +27,7 @@ int main(){
 	int p[9] = {0,1,5,8,9,10,17,17,20};
 	int n = 9;
 
-	printf("Valor = %d\n", cutRod(p, n));
+	printf("Valor = %d\n", cutRodBottomUp(p, n));
 	printf("Recursões = %d", rec);
 
 return 0;
