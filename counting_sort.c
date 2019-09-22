@@ -53,9 +53,6 @@ int main(){
 
     int V[MAX] = {1, 2, 5, 2, 0, 3, 1};
 
-    //V = (int*) malloc(MAX*sizeof(int));
-    //V = {1, 2, 5, 2, 0, 3, 1};
-
     print_vec(V, MAX);
     couting_sort(V, MAX);
     print_vec(V, MAX);

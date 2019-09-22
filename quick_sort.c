@@ -48,7 +48,7 @@ int main(){
         A[i] = MAX - i;
 
     print(A, MAX);
-    quick_sort(A, 0, MAX);
+    quick_sort(A, 0, MAX-1);
     print(A, MAX);
 
     free(A);
